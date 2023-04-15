@@ -4,7 +4,9 @@ This is a rough implementation to conceptualize a car inspection feature in a ra
 ## Controls
 
 A - Rotate camera anti-clockwise around car
+
 D - Rotate Camera clockwise around car
+
 ESC - Unselect part/return to free view
 
 ## Live Demo
