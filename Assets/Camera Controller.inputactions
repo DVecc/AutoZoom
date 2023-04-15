@@ -1,0 +1,56 @@
+{
+    "name": "Camera Controller",
+    "maps": [
+        {
+            "name": "Camera Rotation",
+            "id": "aabbd79d-25c3-4949-97d7-f12690855d7c",
+            "actions": [
+                {
+                    "name": "Rotate Camera",
+                    "type": "PassThrough",
+                    "id": "016169dc-184c-4659-8a11-c53d7a34f9da",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "e20f649e-f303-4a88-a4ea-bdf96ca90b57",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate Camera",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "left",
+                    "id": "457b7896-bae3-4862-be04-2b9f394027a4",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate Camera",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "8b71c088-203b-4928-b4a3-f75e3a7915d1",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate Camera",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
